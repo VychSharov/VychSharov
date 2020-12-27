@@ -18,14 +18,16 @@
             </strong>
         </h1>
     </header>
+        <td>
     <h2>
         <strong>
             3 задание
         </strong>
     </h2>
-         <td width="200" valign="top">
+         
     <ul>Объект "window":</ul>
     <script>
+        
         function myWindowOpen() {
             var myWindow = window.open("", "", "width=200,height=100");
         }
@@ -39,12 +41,13 @@
         }
 
     </script>
-</td>
+
     <button onclick="myWindowOpen()">Открыть окно</button>
     <button onclick="myWindowFocus()">Развернуть окно</button>
     <button onclick="myWindowBlur()">Свернуть окно</button>
 
     <ul>Объект "location":</ul>
+     
     <div id="propertiesLocation" class="alert alert-warning"></div>
     <script>
         var stringPropertiesLocation = "";
@@ -55,9 +58,9 @@
             stringPropertiesLocation += "<br><br>";
         }
         document.getElementById("propertiesLocation").innerHTML = stringPropertiesLocation;
-
+    
     </script>
-
+</td>
     <ul>Объект "navigator":</ul>
     <div id="navig" class="alert alert-waring"></div>
     <script>
